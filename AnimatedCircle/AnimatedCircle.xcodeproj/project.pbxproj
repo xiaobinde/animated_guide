@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C49D002A1D9A5563000B3CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D00291D9A5563000B3CC9 /* main.m */; };
+		C49D002D1D9A5563000B3CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D002C1D9A5563000B3CC9 /* AppDelegate.m */; };
+		C49D00301D9A5563000B3CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D002F1D9A5563000B3CC9 /* ViewController.m */; };
+		C49D00331D9A5563000B3CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D00311D9A5563000B3CC9 /* Main.storyboard */; };
+		C49D00351D9A5563000B3CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49D00341D9A5563000B3CC9 /* Assets.xcassets */; };
+		C49D00381D9A5563000B3CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D00361D9A5563000B3CC9 /* LaunchScreen.storyboard */; };
+		C49D00431D9A5563000B3CC9 /* AnimatedCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D00421D9A5563000B3CC9 /* AnimatedCircleTests.m */; };
+		C49D004E1D9A5563000B3CC9 /* AnimatedCircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D004D1D9A5563000B3CC9 /* AnimatedCircleUITests.m */; };
+		C49D005E1D9A5784000B3CC9 /* CicleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D005D1D9A5784000B3CC9 /* CicleView.m */; };
+		C49D00611D9A57AA000B3CC9 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D00601D9A57AA000B3CC9 /* CircleLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49D003F1D9A5563000B3CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49D001D1D9A5563000B3CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49D00241D9A5563000B3CC9;
+			remoteInfo = AnimatedCircle;
+		};
+		C49D004A1D9A5563000B3CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49D001D1D9A5563000B3CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49D00241D9A5563000B3CC9;
+			remoteInfo = AnimatedCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C49D00251D9A5563000B3CC9 /* AnimatedCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D00291D9A5563000B3CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C49D002B1D9A5563000B3CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C49D002C1D9A5563000B3CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C49D002E1D9A5563000B3CC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C49D002F1D9A5563000B3CC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C49D00321D9A5563000B3CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49D00341D9A5563000B3CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49D00371D9A5563000B3CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49D00391D9A5563000B3CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49D003E1D9A5563000B3CC9 /* AnimatedCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D00421D9A5563000B3CC9 /* AnimatedCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedCircleTests.m; sourceTree = "<group>"; };
+		C49D00441D9A5563000B3CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49D00491D9A5563000B3CC9 /* AnimatedCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D004D1D9A5563000B3CC9 /* AnimatedCircleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedCircleUITests.m; sourceTree = "<group>"; };
+		C49D004F1D9A5563000B3CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49D005C1D9A5784000B3CC9 /* CicleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CicleView.h; sourceTree = "<group>"; };
+		C49D005D1D9A5784000B3CC9 /* CicleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CicleView.m; sourceTree = "<group>"; };
+		C49D005F1D9A57AA000B3CC9 /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		C49D00601D9A57AA000B3CC9 /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49D00221D9A5563000B3CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D003B1D9A5563000B3CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D00461D9A5563000B3CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49D001C1D9A5563000B3CC9 = {
+			isa = PBXGroup;
+			children = (
+				C49D00271D9A5563000B3CC9 /* AnimatedCircle */,
+				C49D00411D9A5563000B3CC9 /* AnimatedCircleTests */,
+				C49D004C1D9A5563000B3CC9 /* AnimatedCircleUITests */,
+				C49D00261D9A5563000B3CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49D00261D9A5563000B3CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49D00251D9A5563000B3CC9 /* AnimatedCircle.app */,
+				C49D003E1D9A5563000B3CC9 /* AnimatedCircleTests.xctest */,
+				C49D00491D9A5563000B3CC9 /* AnimatedCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49D00271D9A5563000B3CC9 /* AnimatedCircle */ = {
+			isa = PBXGroup;
+			children = (
+				C49D005B1D9A5737000B3CC9 /* CircleView */,
+				C49D002B1D9A5563000B3CC9 /* AppDelegate.h */,
+				C49D002C1D9A5563000B3CC9 /* AppDelegate.m */,
+				C49D002E1D9A5563000B3CC9 /* ViewController.h */,
+				C49D002F1D9A5563000B3CC9 /* ViewController.m */,
+				C49D00311D9A5563000B3CC9 /* Main.storyboard */,
+				C49D00341D9A5563000B3CC9 /* Assets.xcassets */,
+				C49D00361D9A5563000B3CC9 /* LaunchScreen.storyboard */,
+				C49D00391D9A5563000B3CC9 /* Info.plist */,
+				C49D00281D9A5563000B3CC9 /* Supporting Files */,
+			);
+			path = AnimatedCircle;
+			sourceTree = "<group>";
+		};
+		C49D00281D9A5563000B3CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49D00291D9A5563000B3CC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C49D00411D9A5563000B3CC9 /* AnimatedCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49D00421D9A5563000B3CC9 /* AnimatedCircleTests.m */,
+				C49D00441D9A5563000B3CC9 /* Info.plist */,
+			);
+			path = AnimatedCircleTests;
+			sourceTree = "<group>";
+		};
+		C49D004C1D9A5563000B3CC9 /* AnimatedCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C49D004D1D9A5563000B3CC9 /* AnimatedCircleUITests.m */,
+				C49D004F1D9A5563000B3CC9 /* Info.plist */,
+			);
+			path = AnimatedCircleUITests;
+			sourceTree = "<group>";
+		};
+		C49D005B1D9A5737000B3CC9 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				C49D005C1D9A5784000B3CC9 /* CicleView.h */,
+				C49D005D1D9A5784000B3CC9 /* CicleView.m */,
+				C49D005F1D9A57AA000B3CC9 /* CircleLayer.h */,
+				C49D00601D9A57AA000B3CC9 /* CircleLayer.m */,
+			);
+			path = CircleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49D00241D9A5563000B3CC9 /* AnimatedCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D00521D9A5563000B3CC9 /* Build configuration list for PBXNativeTarget "AnimatedCircle" */;
+			buildPhases = (
+				C49D00211D9A5563000B3CC9 /* Sources */,
+				C49D00221D9A5563000B3CC9 /* Frameworks */,
+				C49D00231D9A5563000B3CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedCircle;
+			productName = AnimatedCircle;
+			productReference = C49D00251D9A5563000B3CC9 /* AnimatedCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49D003D1D9A5563000B3CC9 /* AnimatedCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D00551D9A5563000B3CC9 /* Build configuration list for PBXNativeTarget "AnimatedCircleTests" */;
+			buildPhases = (
+				C49D003A1D9A5563000B3CC9 /* Sources */,
+				C49D003B1D9A5563000B3CC9 /* Frameworks */,
+				C49D003C1D9A5563000B3CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49D00401D9A5563000B3CC9 /* PBXTargetDependency */,
+			);
+			name = AnimatedCircleTests;
+			productName = AnimatedCircleTests;
+			productReference = C49D003E1D9A5563000B3CC9 /* AnimatedCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C49D00481D9A5563000B3CC9 /* AnimatedCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D00581D9A5563000B3CC9 /* Build configuration list for PBXNativeTarget "AnimatedCircleUITests" */;
+			buildPhases = (
+				C49D00451D9A5563000B3CC9 /* Sources */,
+				C49D00461D9A5563000B3CC9 /* Frameworks */,
+				C49D00471D9A5563000B3CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49D004B1D9A5563000B3CC9 /* PBXTargetDependency */,
+			);
+			name = AnimatedCircleUITests;
+			productName = AnimatedCircleUITests;
+			productReference = C49D00491D9A5563000B3CC9 /* AnimatedCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49D001D1D9A5563000B3CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ocean;
+				TargetAttributes = {
+					C49D00241D9A5563000B3CC9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9J66UF5P5Q;
+						ProvisioningStyle = Automatic;
+					};
+					C49D003D1D9A5563000B3CC9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9J66UF5P5Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C49D00241D9A5563000B3CC9;
+					};
+					C49D00481D9A5563000B3CC9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9J66UF5P5Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C49D00241D9A5563000B3CC9;
+					};
+				};
+			};
+			buildConfigurationList = C49D00201D9A5563000B3CC9 /* Build configuration list for PBXProject "AnimatedCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49D001C1D9A5563000B3CC9;
+			productRefGroup = C49D00261D9A5563000B3CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49D00241D9A5563000B3CC9 /* AnimatedCircle */,
+				C49D003D1D9A5563000B3CC9 /* AnimatedCircleTests */,
+				C49D00481D9A5563000B3CC9 /* AnimatedCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49D00231D9A5563000B3CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D00381D9A5563000B3CC9 /* LaunchScreen.storyboard in Resources */,
+				C49D00351D9A5563000B3CC9 /* Assets.xcassets in Resources */,
+				C49D00331D9A5563000B3CC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D003C1D9A5563000B3CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D00471D9A5563000B3CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49D00211D9A5563000B3CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D00301D9A5563000B3CC9 /* ViewController.m in Sources */,
+				C49D00611D9A57AA000B3CC9 /* CircleLayer.m in Sources */,
+				C49D005E1D9A5784000B3CC9 /* CicleView.m in Sources */,
+				C49D002D1D9A5563000B3CC9 /* AppDelegate.m in Sources */,
+				C49D002A1D9A5563000B3CC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D003A1D9A5563000B3CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D00431D9A5563000B3CC9 /* AnimatedCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D00451D9A5563000B3CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D004E1D9A5563000B3CC9 /* AnimatedCircleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49D00401D9A5563000B3CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49D00241D9A5563000B3CC9 /* AnimatedCircle */;
+			targetProxy = C49D003F1D9A5563000B3CC9 /* PBXContainerItemProxy */;
+		};
+		C49D004B1D9A5563000B3CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49D00241D9A5563000B3CC9 /* AnimatedCircle */;
+			targetProxy = C49D004A1D9A5563000B3CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49D00311D9A5563000B3CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D00321D9A5563000B3CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49D00361D9A5563000B3CC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D00371D9A5563000B3CC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49D00501D9A5563000B3CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C49D00511D9A5563000B3CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49D00531D9A5563000B3CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J66UF5P5Q;
+				INFOPLIST_FILE = AnimatedCircle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.AnimatedCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C49D00541D9A5563000B3CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J66UF5P5Q;
+				INFOPLIST_FILE = AnimatedCircle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.AnimatedCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C49D00561D9A5563000B3CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9J66UF5P5Q;
+				INFOPLIST_FILE = AnimatedCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.AnimatedCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCircle.app/AnimatedCircle";
+			};
+			name = Debug;
+		};
+		C49D00571D9A5563000B3CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9J66UF5P5Q;
+				INFOPLIST_FILE = AnimatedCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.AnimatedCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCircle.app/AnimatedCircle";
+			};
+			name = Release;
+		};
+		C49D00591D9A5563000B3CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9J66UF5P5Q;
+				INFOPLIST_FILE = AnimatedCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.AnimatedCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimatedCircle;
+			};
+			name = Debug;
+		};
+		C49D005A1D9A5563000B3CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9J66UF5P5Q;
+				INFOPLIST_FILE = AnimatedCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.AnimatedCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AnimatedCircle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49D00201D9A5563000B3CC9 /* Build configuration list for PBXProject "AnimatedCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D00501D9A5563000B3CC9 /* Debug */,
+				C49D00511D9A5563000B3CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D00521D9A5563000B3CC9 /* Build configuration list for PBXNativeTarget "AnimatedCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D00531D9A5563000B3CC9 /* Debug */,
+				C49D00541D9A5563000B3CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D00551D9A5563000B3CC9 /* Build configuration list for PBXNativeTarget "AnimatedCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D00561D9A5563000B3CC9 /* Debug */,
+				C49D00571D9A5563000B3CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D00581D9A5563000B3CC9 /* Build configuration list for PBXNativeTarget "AnimatedCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D00591D9A5563000B3CC9 /* Debug */,
+				C49D005A1D9A5563000B3CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49D001D1D9A5563000B3CC9 /* Project object */;
+}
